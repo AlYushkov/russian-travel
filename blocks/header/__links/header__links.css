@@ -1,0 +1,16 @@
+.header__links {
+    margin: 0;
+    right: 0px;
+    bottom: 0px;
+    padding-bottom: 6px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0px 18px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+@media screen and (max-width: 320px) {
+    .header__links {
+        padding-bottom: 8px;
+    }
+}
