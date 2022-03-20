@@ -7,9 +7,8 @@
     line-height: 1.2;
     color: #ffffff;
     text-decoration: none;
-    letter-spacing: 0em;
-    padding-left: 2px;
-    text-align: end;
+    letter-spacing: 1px;
+    text-align: right;
 }
 @media screen and (max-width: 320px) {
     .header__lang-link {
