@@ -1,14 +1,22 @@
 .header {
+    position: relative;
+    justify-self: stretch;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin:0px 0px 56px 0px;
+    width: auto;
     height: 52px;
-    margin: 0 auto;
+    padding: 28px 48px 0px 48px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    padding: 28px 48px 0px 48px;
+
 }
 @media screen and (max-width: 768px) {
     .header {
         padding: 28px 24px 0px 24px;
+        margin-bottom: 48px;
     }
 }
 @media screen and (max-width: 320px) {

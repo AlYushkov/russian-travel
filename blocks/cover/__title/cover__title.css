@@ -1,0 +1,47 @@
+.cover__title {
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;     
+    left: calc( 50vw - 232px - ( 50vw - 50%  ) );
+    right: calc( 50vw - 232px - ( 50vw - 50% ) );
+    top: 32.97%; 
+    max-height: 152px;
+    max-width: 560px;  
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1.0555;
+    letter-spacing: 0.05em;
+    text-align: center;
+    vertical-align: top;
+    z-index: 30;
+}
+@media screen and (min-width: 1280.1px) {
+    .cover__title {
+        left: 360px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 auto;
+        width: 288px;
+        height: 70px;
+        top: 33px;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 1.094;
+        letter-spacing: 0.15em;
+        text-align: center;
+    }
+}
+.cover__title:hover + #sbt + #bcd {
+    opacity: 0.3 !important;
+}

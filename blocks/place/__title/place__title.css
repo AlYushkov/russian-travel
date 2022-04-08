@@ -1,0 +1,35 @@
+.place__title {
+    position:relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 48px 0;
+    height: auto;
+    max-width: 460px;
+    left: 0;
+    bottom: 0;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1.056;
+    letter-spacing: .07em;
+    text-align:left;
+    vertical-align: bottom;
+}
+@media screen and (max-width: 768px) {
+    .place__title {
+        max-width: 340px;
+        font-family: Inter;
+        font-size: 42px;
+        line-height: 1.095x;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__title {
+        margin-bottom: 32px;
+        max-width: 288px;
+        font-family: Inter;
+        font-size: 32px;
+        line-height: 1.094; 
+    }
+}

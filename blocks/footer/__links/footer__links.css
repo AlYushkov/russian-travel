@@ -1,0 +1,27 @@
+.footer__links {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    display: grid;
+    grid-template: 18px / repeat(5,auto);
+    justify-content: start;
+    align-content: center;
+    gap: 0px 18px;
+}
+@media screen and (max-width:744px) {
+    .footer__links {
+        grid-template: 18px 18px / repeat(2,auto); 
+        grid-auto-flow: row;
+        column-gap: 4px;
+    }
+}
+@media screen and (max-width:320px){
+    .footer__links {
+        grid-template: repeat(5,auto) / 1fr;
+        gap: 32px 0px;
+        align-content: start;
+    }
+}

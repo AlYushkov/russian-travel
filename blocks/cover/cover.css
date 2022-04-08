@@ -1,0 +1,31 @@
+.cover {
+    position: relative;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 44px 48px 0px 48px;
+    margin: 0;
+    max-width: 1280px;
+    max-height: 832px;
+    box-shadow: 0px 1px 3px 0px #00000033;
+    cursor:url(../../images/Pointer.png), pointer;
+
+}
+@media screen and (max-width: 1024px) {
+.cover {
+    padding: 44px 0px 0px 0px;
+    max-width: 1024px;
+    max-height: 640px;
+}
+}
+@media screen and (max-width: 768px) {
+.cover {
+    padding: 88px 0px 0px 0px;
+}
+}
+@media screen and (max-width: 320px) {
+.cover {
+    padding: 34px 0px 0px 0px;
+}
+}
