@@ -38,5 +38,5 @@
     }
 }
 .cover__title:hover + #sbt + #bcd {
-    opacity: 0.3 !important;
+    opacity: 0.3;
 }

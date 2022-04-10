@@ -34,5 +34,5 @@
     }
 }
 .cover__subtitle:hover + #bcd {
-    opacity: 0.3 !important;
+    opacity: 0.3;
 }
