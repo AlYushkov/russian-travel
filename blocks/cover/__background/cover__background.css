@@ -2,14 +2,13 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0 auto;    
+    margin: 0 auto;
     width: 100%;
     max-height: 740px;
     object-fit: cover;
     z-index: 20;
-    opacity:0.8; 
+    opacity:0.8;
 }
-
 .cover__background:hover {
     opacity: 0.3 !important;
 }
@@ -19,11 +18,11 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0 auto;    
+    margin: 0 auto;
     width: 100%;
     max-height: 740px;
     background-color: #2a2c2f;
     background: url("../../../images/cover__overlay.jpg") no-repeat center  cover;
     z-index: 10;
-    opacity:1; 
+    opacity: 1;
 }
