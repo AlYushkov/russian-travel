@@ -5,7 +5,6 @@
     margin: 0;
     max-width: 690px;
     min-height: 248px;
-    padding-top: 40px;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -23,8 +22,7 @@
 }
 @media screen and (max-width: 320px) {
     .intro__text {
-        padding-top: 34px;
         max-width: 288px;
-        max-height: 560px;
+        height:auto;
     }
 }

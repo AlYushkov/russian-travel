@@ -1,0 +1,36 @@
+.intro__info {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 320px;
+    max-width: 1280px;
+    height: auto;
+    padding-left: 148px;
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start;
+}
+@media screen and (max-width: 1024px) {
+    .intro__info {
+        padding-left: 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro__info {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__info {    
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+
+
+
