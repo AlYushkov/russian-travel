@@ -1,4 +1,4 @@
-.place__website_link {
+.place__link {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -20,10 +20,10 @@
     opacity: 1;
     cursor:url(../../../../images/Pointer.png), pointer;
 }
-.place__website_link:hover {
-    opacity: 0.8;
-}
-.place:hover {
+.place__link:hover {
     border: 1px solid #000000CC;
+    opacity: 0.8;
+    -webkit-box-shadow: 0px 1px 3px 0px #00000033;
     box-shadow: 0px 1px 3px 0px #00000033;
+
 }

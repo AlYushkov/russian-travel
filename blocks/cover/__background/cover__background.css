@@ -10,6 +10,9 @@
     opacity:0.8;
 }
 .cover__background:hover {
+    border: 1px solid #000000CC;
+    -webkit-box-shadow: 0px 1px 3px 0px #00000033;
+    box-shadow: 0px 1px 3px 0px #00000033;
     opacity: 0.3;
 }
 .cover__background::before {
