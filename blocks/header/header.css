@@ -1,17 +1,16 @@
 .header {
     position: relative;
-    justify-self: stretch;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    margin:0px 0px 56px 0px;
-    width: auto;
-    height: 52px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px 0px 56px 0px;
     padding: 28px 48px 0px 48px;
+    width: 100%;
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: row;
     justify-content: space-between;
 }
+
 @media screen and (max-width: 768px) {
     .header {
         padding: 28px 24px 0px 24px;
@@ -20,7 +19,6 @@
 }
 @media screen and (max-width: 320px) {
     .header {
-        height: 42px;
         padding: 16px 16px 0px 16px;
     }
 }

@@ -1,6 +1,8 @@
 .header__lang-link {
     margin: 0;
-    font-family: Inter;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Inter", "Arial", "sans-serif";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -8,8 +10,7 @@
     text-decoration: none;
     color: #ffffff;
     align-self: flex-end;
-
-    letter-spacing: 1px;
+    letter-spacing: 0em;
     text-align: right;
 }
 @media screen and (max-width: 320px) {

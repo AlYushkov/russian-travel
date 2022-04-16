@@ -1,45 +1,63 @@
 .cover__title {
     position: absolute;
-    margin: 0 auto;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
     left: calc( 50% - 280px );
     right: calc( 50% - 280px );
-    top: 32.97%;
-    height: 152px;
-    width: 560px;
-    font-family: Inter;
+    top: calc(44px + 31.12%);
+    max-width: 560px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Inter", "Arial", "sans-serif";
     font-size: 72px;
     font-weight: 900;
     line-height: 1.0555;
-    letter-spacing: 0.05em;
+    letter-spacing: 0em;
     text-align: center;
     vertical-align: top;
+    white-space: normal;
     z-index: 30;
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width: 1024px) {
     .cover__title {
-        top: 99px;
+        top: calc(44px + 28.36%);
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover__title {
+        top: calc(88px + 20.5%);
+    }
+}
+@media screen and (max-width: 680px) {
+    .cover__title {
+        max-width: 400px;
+        left: calc(50% - 200px);
+        right: calc(50% - 200px);
+        top: calc(25% + 58.35px);
+        font-size: 48px;        
+    }
+}
+@media screen and (max-width: 480px) {
+    .cover__title {
+        max-width: 288px;
+        left: calc(50% - 144px);
+        right: calc(50% - 144px);
+        top: calc(16.5% + 85px);
+        font-size: 32px;
     }
 }
 @media screen and (max-width: 320px) {
     .cover__title {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        margin: 0 auto;
-        width: 288px;
-        height: 70px;
-        top: 33px;
-        font-family: Inter;
+        max-width: 288px;
+        left: calc(50% - 144px);
+        right: calc(50% - 144px);
+        top: 65px;
         font-size: 32px;
-        font-weight: 900;
-        line-height: 1.094;
-        letter-spacing: 0em;
-        text-align: center;
     }
 }
 .cover__title:hover + #sbt + #bcd {
-    border: 1px solid #000000CC;
-    -webkit-box-shadow: 0px 1px 3px 0px #00000033;
-    box-shadow: 0px 1px 3px 0px #00000033;
     opacity: 0.3;
 }

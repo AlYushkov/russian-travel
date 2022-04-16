@@ -1,45 +1,62 @@
 .place__paragraph {
-    position: relative;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing:  content-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    width: auto;
     display: flex;
     flex-direction: column;
     gap: 25px 0px;
     align-self: start;
 }
+@media screen and (max-width: 425px) {
+    .place__paragraph {
+        margin-top: 0px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 32px;
+    }
+}
 @media screen and (max-width: 320px) {
     .place__paragraph {
-        margin-top: 32px;
+        margin-top: 0px;
         margin-left: 16px;
         margin-right: 16px;
         margin-bottom: 32px;
     }
 }
 p:first-child {
-    -webkit-box-sizing:  content-box;
-    -moz-box-sizing:  content-box;
-    box-sizing:  content-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
-    font-family: Inter;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Inter", "Arial", "sans-serif";
     font-size: 18px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 1.61;
     letter-spacing: 0em;
+    white-space: normal;
     text-align: left;
     align-self: start;
 }
 p:last-child {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing:  content-box;
-    box-sizing:  content-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
-    font-family: Inter;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Inter", "Arial", "sans-serif";
     font-size: 18px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 1.61;
     letter-spacing: 0em;
+    white-space: normal;
     text-align: left;
     align-self: start;
 }

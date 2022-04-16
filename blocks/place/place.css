@@ -1,5 +1,9 @@
 .place {
-    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     display: grid;
     grid-template-rows: 1fr minmax(2fr,3fr);
     grid-template-columns:  minmax(auto, 460px) minmax(auto,484px);
@@ -19,10 +23,9 @@
         column-gap: 28px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     .place {
         grid-template-columns: 1fr;
-        grid-template-rows: 35px 46px 320px auto;
-        column-gap: 32px;
+        grid-template-rows: auto auto auto auto auto;
     }
 }

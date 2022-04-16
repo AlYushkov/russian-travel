@@ -11,13 +11,21 @@
     align-content: center;
     gap: 0px 18px;
 }
-@media screen and (max-width:744px) {
+@media screen and (max-width:720px) {
     .footer__links {
         grid-template: 18px 18px / repeat(2,auto);
         grid-auto-flow: row;
-        column-gap: 4px;
+        column-gap: 2px;
     }
 }
+@media screen and (max-width:480px){
+    .footer__links {
+        grid-template: repeat(4,auto) / 1fr;
+        gap: 32px 0px;
+        align-content: start;
+    }
+}
+
 @media screen and (max-width:320px){
     .footer__links {
         grid-template: repeat(5,auto) / 1fr;
