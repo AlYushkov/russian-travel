@@ -1,5 +1,4 @@
 .header {
-    position: relative;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -15,6 +14,11 @@
     .header {
         padding: 28px 24px 0px 24px;
         margin-bottom: 48px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 16px 16px 0px 16px;
     }
 }
 @media screen and (max-width: 320px) {

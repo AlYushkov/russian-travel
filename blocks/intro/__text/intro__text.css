@@ -26,6 +26,7 @@
     .intro__text {
         left: calc(50% - 144px);
         right: calc(50% - 144px);
+        max-width: 288px;
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
