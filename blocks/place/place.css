@@ -27,9 +27,16 @@
     .place {
         grid-template-columns: minmax(auto, 340px) minmax(auto, 352px);
         column-gap: 28px;
+        grid-auto-flow: dense;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width:480px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+    }
+}
+@media screen and (max-width: 320px) {
     .place {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto auto;
