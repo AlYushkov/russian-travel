@@ -15,6 +15,7 @@
     letter-spacing: 0em;
     text-align: left;
     white-space: normal;
+    hyphens: auto;
 }
 @media screen and (max-width: 768px) {
     .intro__text {
@@ -23,6 +24,12 @@
 }
 @media screen and (max-width: 320px) {
     .intro__text {
-        max-width: 288px;
+        left: calc(50% - 144px);
+        right: calc(50% - 144px);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
     }
 }
