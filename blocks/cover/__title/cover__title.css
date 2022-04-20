@@ -34,8 +34,8 @@
 }
 @media screen and (max-width: 480px) {
     .cover__title {
-        left: calc(50% -144px);
-        right: calc(50% -144px);
+        left: calc(50% - 144px);
+        right: calc(50% - 144px);
         max-width: 318px;
         font-size: 36px;
         font-weight: 900;
@@ -45,8 +45,8 @@
 }
 @media screen and (max-width: 320px) {
     .cover__title {
-        left: calc(50% -144px);
-        right: calc(50% -144px);
+        left: calc(50% - 144px);
+        right: calc(50% - 144px);
         max-width: 288px;
         font-size: 32px;
         font-weight: 900;
