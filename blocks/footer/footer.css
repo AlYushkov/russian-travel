@@ -6,7 +6,7 @@
     box-sizing: border-box;
     padding: 92px 48px 24px 48px;
     width: 100%;
-    display: flex;
+    display:inline-flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-content:end;
@@ -21,10 +21,18 @@
         padding: 88px 24px 24px 24px;
     }
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:680px) {
     .footer {
         padding-left: 16px;
         padding-top: 64px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 64px 16px 24px 16px;
+        flex-flow: column nowrap;
+        align-content: flex-start;
+        gap: 48px  0px;
     }
 }
 @media screen and (max-width: 320px) {

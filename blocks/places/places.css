@@ -4,7 +4,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
-    padding: 92px 148px 0px 148px;
+    padding: 92px 0px 0px 0px;
     width: 100%;
     display: grid;
     grid-template: repeat(5, auto) / 1fr;
@@ -14,13 +14,19 @@
 }
 @media screen and (max-width: 1024px) {
     .places {
-        padding: 92px 48px 0px 48px;
+        padding: 92px 0px 0px 0px;
         column-gap: 80px;
     }
 }
 @media screen and (max-width: 768px) {
     .places {
-        padding: 88px 24px 0px 24px;
+        padding: 88px 0px 0px 0px;
+        row-gap: 73px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .places {
+        padding: 88px 0px 0px 0px;
         row-gap: 73px;
     }
 }

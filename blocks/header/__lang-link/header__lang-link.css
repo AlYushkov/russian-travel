@@ -12,6 +12,8 @@
     align-self: flex-end;
     letter-spacing: 0em;
     text-align: right;
+    opacity: 1;
+    cursor:url(../../../images/Pointer.png), pointer;
 }
 @media screen and (max-width: 480px) {
     .header__lang-link {
@@ -24,4 +26,7 @@
         font-size: 18px;
         line-height: 1.1;
     }
+}
+.header__lang-link:hover {
+    opacity: 0.8;
 }

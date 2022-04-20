@@ -1,13 +1,11 @@
 .cover__title {
-    position: absolute;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    left: calc( 50% - 280px );
-    right: calc( 50% - 280px );
-    top: calc(44px + 31.12%);
+    left: calc(50% - 280px);
+    right: calc(50% - 280px);
     max-width: 560px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -19,45 +17,40 @@
     text-align: center;
     vertical-align: top;
     white-space: normal;
+    text-decoration: none;
     z-index: 30;
-}
-@media screen and (max-width: 1024px) {
-    .cover__title {
-        top: calc(44px + 28.36%);
-    }
-}
-@media screen and (max-width: 768px) {
-    .cover__title {
-        top: calc(88px + 20.5%);
-    }
+    opacity: 1;
 }
 @media screen and (max-width: 680px) {
     .cover__title {
-        max-width: 400px;
-        left: calc(50% - 200px);
-        right: calc(50% - 200px);
-        top: calc(25% + 58.35px);
-        font-size: 48px;        
+        left: calc(50% - 170px);
+        right: calc(50% - 170px);
+        max-width: 478px;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1.094;
+        letter-spacing: 0em;        
     }
 }
 @media screen and (max-width: 480px) {
     .cover__title {
-        max-width: 288px;
-        left: calc(50% - 144px);
-        right: calc(50% - 144px);
-        top: calc(16.5% + 85px);
-        font-size: 32px;
+        left: calc(50% -144px);
+        right: calc(50% -144px);
+        max-width: 318px;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 1.094;
+        letter-spacing: 0em;
     }
 }
 @media screen and (max-width: 320px) {
     .cover__title {
+        left: calc(50% -144px);
+        right: calc(50% -144px);
         max-width: 288px;
-        left: calc(50% - 144px);
-        right: calc(50% - 144px);
-        top: 65px;
         font-size: 32px;
+        font-weight: 900;
+        line-height: 1.094;
+        letter-spacing: 0em;
     }
-}
-.cover__title:hover + #sbt + #bcd {
-    opacity: 0.3;
 }

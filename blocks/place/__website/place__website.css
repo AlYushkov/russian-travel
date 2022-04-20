@@ -1,19 +1,37 @@
 .place__website {
-    margin: 0 0 48px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 106px;
     max-width: 456px;
+}
+@media screen and (max-width: 768px) {
+    .place__website {
+        padding-top: 46px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .place__website {
+        padding-top: 0px;
+        grid-row-start:2;
+        grid-row-end: 3;
+    }
 }
 @media screen and (max-width: 480px) {
     .place__website {
-        margin-bottom: 32px;
-        margin-left: 16px;
+        padding-top: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
         grid-row-start:2;
         grid-row-end: 3;
     }
 }
 @media screen and (max-width: 320px) {
-    .place__website {
-        margin-bottom: 32px;
-        margin-left: 16px;
+    .place__website {padding-top: 0px;
+        padding-top: 0;
+        padding-left: 16px;
+        padding-right: 16px;
         grid-row-start:2;
         grid-row-end: 3;
     }

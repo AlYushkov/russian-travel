@@ -1,8 +1,8 @@
 .place__title {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    margin: 0px 0px 48px 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
     max-width: 460px;
     -webkit-font-smoothing: antialiased;
@@ -13,9 +13,22 @@
     line-height: 1.056;
     letter-spacing: 0em;
     text-align: left;
-    vertical-align: bottom;
+    vertical-align: top;
+    justify-self:start;
+}
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 440px; 
+    }
 }
 @media screen and (max-width: 768px) {
+    .place__title {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 1.095;
+    }
+}
+@media screen and (max-width: 680px) {
     .place__title {
         max-width: 340px;
         font-size: 42px;
@@ -25,7 +38,16 @@
 @media screen and (max-width: 480px) {
     .place__title {
         padding-left: 16px;
-        margin-bottom: 32px;
+        padding-right: 16px;
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 1.094;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__title {
+        padding-left: 16px;
+        padding-right: 16px; 
         max-width: 288px;
         font-size: 32px;
         line-height: 1.094;
