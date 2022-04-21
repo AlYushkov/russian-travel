@@ -1,15 +1,21 @@
 .places {
     position: relative;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
     padding: 92px 0px 0px 0px;
     width: 100%;
+    display: -ms-grid;
     display: grid;
-    grid-template: repeat(5, auto) / 1fr;
-    justify-content: stretch;
-    align-items: center;
+    -ms-grid-rows: auto 80px auto 80px auto 80px auto 80px auto;
+    -ms-grid-columns: 1fr;
+        grid-template: repeat(5, auto) / 1fr;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     row-gap: 80px;
 }
 @media screen and (max-width: 1024px) {

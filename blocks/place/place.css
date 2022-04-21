@@ -1,16 +1,22 @@
 .place {
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
     padding: 0px 148px 0px 148px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-rows: minmax(1fr,2fr) 48px minmax(2fr,3fr);
     grid-template-rows: minmax(1fr,2fr) minmax(2fr,3fr);
+    -ms-grid-columns:  minmax(auto, 460px) 40px minmax(auto,484px);
     grid-template-columns:  minmax(auto, 460px) minmax(auto,484px);
-    column-gap: 40px;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
     row-gap: 48px;
     justify-items: start;
-    align-items: end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
 }
 @media screen and (max-width: 1024px) {
     .place {

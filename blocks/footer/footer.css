@@ -6,10 +6,18 @@
     box-sizing: border-box;
     padding: 92px 48px 24px 48px;
     width: 100%;
-    display:inline-flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-content:end;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack:end;
+        align-content:end;
 }
 @media screen and (max-width: 1024px) {
     .footer {
