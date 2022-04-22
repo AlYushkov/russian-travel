@@ -2,7 +2,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px 0px 48px 0px;
     padding: 0;
     max-width: 460px;
     -webkit-font-smoothing: antialiased;
@@ -30,6 +30,7 @@
 }
 @media screen and (max-width: 680px) {
     .place__title {
+        margin: 0;
         max-width: 340px;
         font-size: 42px;
         line-height: 1.095;

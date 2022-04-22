@@ -38,16 +38,24 @@
 @media screen and (max-width: 480px) {
     .footer {
         padding: 64px 16px 24px 16px;
-        flex-flow: column nowrap;
-        align-content: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
         gap: 48px  0px;
     }
 }
 @media screen and (max-width: 320px) {
     .footer {
         padding: 64px 16px 24px 16px;
-        flex-flow: column nowrap;
-        align-content: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
         gap: 48px  0px;
     }
 }

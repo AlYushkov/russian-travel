@@ -22,11 +22,14 @@
 @media screen and (max-width: 480px) {
     .place__paragraph {
         padding: 0px 16px 0px 16px;
+        left: calc(50% - 144px);
+        right: calc(50% - 144px);        
     }
 }
 @media screen and (max-width: 320px) {
     .place__paragraph {
         padding: 0px 16px 0px 16px;
-        max-width: 288px;
+        left: calc(50% - 144px);
+        right: calc(50% - 144px);
     }
 }

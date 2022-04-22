@@ -2,7 +2,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px 0px 48px 0px;
     padding-top: 106px;
     max-width: 456px;
 }
@@ -13,6 +13,7 @@
 }
 @media screen and (max-width: 680px) {
     .place__website {
+        margin: 0;
         padding-top: 0px;
         grid-row-start:2;
         grid-row-end: 3;
